@@ -1,9 +1,9 @@
 {{#if comments}}
-    <section class="gh-comments gh-canvas">
-        <header class="gh-comments-header">
-            <h3 class="gh-comments-title related-title">Member discussion</h3>
-            {{comment_count class="gh-comments-count"}}
-        </header>
-        {{comments title="" count=false}}
-    </section>
+<section class="gh-comments gh-canvas">
+    <div class="comment container medium utterances">
+        <script src="https://utteranc.es/client.js" repo="hq5544/utteranc-filed" issue-term="title" theme="github-light"
+            crossorigin="anonymous" async></script>
+    </div>
+    <div class="utterances-comment-login-tip">登录 GitHub 即可通过 issue 发表评论👆</div>
+</section>
 {{/if}}
