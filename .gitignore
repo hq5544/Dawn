@@ -5,3 +5,5 @@ dist
 .pnp.*
 yarn.lock
 .yarn
+assets/built/
+assets/build/
