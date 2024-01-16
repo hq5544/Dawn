@@ -2,3 +2,6 @@ node_modules
 assets/build
 package-lock.json
 dist
+.pnp.*
+yarn.lock
+.yarn
